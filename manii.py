@@ -1,13 +1,13 @@
-# class Bank:
-#     def __init__(self):
-#         self.__balance = 1
-#     def deposit(self, amount):
-#         self.__balance += amount
-#     def show_balance(self):
-#         print("balance:", self.__balance)
-# b = Bank()
-# b.deposit(500)
-# b.show_balance()
+class Bank:
+    def __init__(self):
+        self.__balance = 0
+    def deposit(self, amount):
+        self.__balance += amount
+    def show_balance(self):
+        print("balance:", self.__balance)
+b = Bank()
+b.deposit(500)
+b.show_balance()
 
 # class Book:
 #     def __init__(self, title, author):
