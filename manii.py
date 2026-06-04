@@ -6,7 +6,7 @@ class Bank:
     def show_balance(self):
         print("balance:", self.__balance)
 b = Bank()
-b.deposit(500)
+b.deposit(1000)
 b.show_balance()
 
 # class Book:
